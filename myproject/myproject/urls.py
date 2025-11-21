@@ -17,8 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from basic.views import sample
+from basic.views import health
+from basic.views import addStudent
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('user/',sample)
+    path('user/',sample),
+    path('raju/',health),
+    path('add/',addStudent)
+
 ]
