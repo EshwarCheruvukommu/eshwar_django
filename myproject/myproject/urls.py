@@ -24,6 +24,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('user/',sample),
     path('raju/',health),
-    path('add/',addStudent)
+    path('student/',addStudent)
 
 ]
